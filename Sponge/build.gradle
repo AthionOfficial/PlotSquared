@@ -4,9 +4,9 @@ buildscript {
         mavenLocal()
         maven {
             name = "forge"
-            url = "http://files.minecraftforge.net/maven"
+            url = "https://files.minecraftforge.net/maven"
         }
-        maven { url = "http://repo.minecrell.net/releases" }
+        maven { url = "https://repo.minecrell.net/releases" }
         maven {
             url "https://plugins.gradle.org/m2/"
         }
